@@ -150,3 +150,44 @@ used to perform some operation on data
 // console.log("a =", a);
 
 // ? comparison operators
+// we used this to compare 2 values 
+// this will checked the value
+// ! equal to
+// sign ==
+// let a = 5;
+// let b = 2;
+// console.log("a == b", a == b);
+// ! Not equal to
+ // sign !=
+// let c = 5;
+// let d = 2;
+// console.log("a is not equal to b", a != b);
+
+// javascript automatically convert string to numbers and then compare with other variable.
+// !  but in some times we don't want string to convert into number so we used strict version comparison operators
+// this will checked the value and data type is well 
+
+// sign ===
+// sign !==
+
+
+// ! Greater than
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a > b", a > b);
+
+// ! less than
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a < b", a < b);
+// ! less than equal to
+
+// let a = 5;
+// let b = 5;
+
+// console.log("a <= b", a <= b);
+

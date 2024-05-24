@@ -150,7 +150,7 @@ used to perform some operation on data
 // console.log("a =", a);
 
 // ? comparison operators
-// we used this to compare 2 values 
+// we used this to compare 2 values
 // this will checked the value
 // ! equal to
 // sign ==
@@ -158,18 +158,17 @@ used to perform some operation on data
 // let b = 2;
 // console.log("a == b", a == b);
 // ! Not equal to
- // sign !=
+// sign !=
 // let c = 5;
 // let d = 2;
 // console.log("a is not equal to b", a != b);
 
 // javascript automatically convert string to numbers and then compare with other variable.
 // !  but in some times we don't want string to convert into number so we used strict version comparison operators
-// this will checked the value and data type is well 
+// this will checked the value and data type is well
 
 // sign ===
 // sign !==
-
 
 // ! Greater than
 
@@ -190,4 +189,120 @@ used to perform some operation on data
 // let b = 5;
 
 // console.log("a <= b", a <= b);
+// ! Greater than equal to
 
+// let a = 6;
+// let b = 5;
+
+// console.log("a >= b", a >= b);
+
+// ? logical operators
+
+// ! logical AND
+
+// we used this if both conditions are true sign &&
+
+// let a = 6;
+// let b = 5;
+
+// let cond1 = a > b;
+// let cond2 = a === 6;
+
+// console.log("cond1 && cond2 = ", cond1 && cond2);
+
+// ! logical OR
+
+// we used this if from both conditions one is gose true sign ||
+
+// let a = 6;
+// let b = 5;
+
+// let cond1 = a < b;
+// let cond2 = a === 6;
+
+// console.log("cond1 || cond2 = ", cond1 || cond2);
+
+// ! logical NOT
+
+// we use this to reverse the condition sign !
+
+// let a = 6;
+// let b = 5;
+
+// let cond1 = a < b;
+// console.log("cond1 = ", !cond1);
+
+// ? ternary Operators
+
+// its works on 3 operands sign ? :
+// its a short way to write if else or compact
+
+let age = 25;
+let result = age >= 18 ? "adult" : "not adult";
+console.log(result);
+
+// ? Conditional Statements
+
+// ! IF
+
+// example 1
+
+// let age = 25;
+
+// if (age > 18) {
+//   console.log("You can vote");
+// }
+
+// example 2
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// }
+// if (mode === "light") {
+//   color = "white";
+// }
+
+// console.log(color);
+
+// ! IF ELSE
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// } else {
+//   color = "white";
+// }
+
+// console.log(color);
+
+// ! ELSE IF
+
+// 1st if condition is checked then we can use else if after that else
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//   color = "black";
+// } else if (mode === "blue") {
+//   color = "blue";
+// } else if (mode === "green") {
+//   color = "green";
+// } else {
+//   color = "white";
+// }
+
+// ! ODD or EVEN
+
+// let num = 10;
+
+// if (num % 2 === 0) {
+//   console.log(num, "is even");
+// } else {
+//   console.log(num, "is odd");
+// }

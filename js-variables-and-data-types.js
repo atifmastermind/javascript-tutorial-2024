@@ -237,9 +237,9 @@ used to perform some operation on data
 // its works on 3 operands sign ? :
 // its a short way to write if else or compact
 
-let age = 25;
-let result = age >= 18 ? "adult" : "not adult";
-console.log(result);
+// let age = 25;
+// let result = age >= 18 ? "adult" : "not adult";
+// console.log(result);
 
 // ? Conditional Statements
 
@@ -307,7 +307,7 @@ console.log(result);
 //   console.log(num, "is odd");
 // }
 
-// Practice 1
+// ? Practice 1
 
 // let number = prompt("enter a number");
 // if (number % 5 === 0) {
@@ -316,7 +316,7 @@ console.log(result);
 //   console.log(number, "is not a multiple of 5 ");
 // }
 
-// Practice 2
+// ? Practice  2
 // let score = prompt("Enter your score between (0 - 100):");
 // let grade;
 
@@ -333,3 +333,105 @@ console.log(result);
 // }
 
 // console.log("according to your scores, your grade was", grade);
+
+// ! Loops
+// loops are used to execute a piece of code again & again
+
+// ? FOR
+// print 1 to 5
+// for (let i = 1; i <= 5; i++) {
+//   console.log("values", i);
+// }
+// console.log("loop is ended");
+
+// calculate sum of 1 to 5
+
+// let sum = 0;
+// let n = 6;
+// for (let i = 1; i <= n; i++) {
+//   sum = sum + i;
+// }
+// console.log("sum =", sum);
+
+// ? Infinite loop
+// a loop that never ends
+
+// ? WHILE
+
+// we use a keyword while then we set our stopping condition.
+// initialization we do before while loop and updation in loop
+
+// let i = 1;
+// while (i <= 5) {
+//   console.log("values");
+//   i++;
+// }
+
+// ? DO - While;
+
+// do while loop work as while loop but in a little difference, in do while condition checked in last but in while its checked from start
+
+// do while will run at least one time
+
+// let i = 1;
+// do {
+//   console.log("run", i);
+//   i++;
+// } while (i <= 10);
+
+// ! FOR-OF // spacial Loop
+// these loops help us to iterate "means to add loops on some spacial data types"
+// this will help us to add loops on strings and arrays
+
+// let = str = "Atif";
+
+// for (let i of str) {
+//   // iterater => character
+//   console.log("i = ", i);
+// }
+
+// we can also know the size of strings
+
+// let str = "Atif";
+// let size = 0;
+
+// for (let i of str) {
+//   // iterater => character
+//   console.log("i = ", i);
+//   size++;
+// }
+
+// console.log("string size = ", size);
+
+// ! FOR-IN // spacial Loop
+// this will used for objects and arrays
+
+// let student = {
+//   name: "Atif",
+//   age: 30,
+//   cgpa: 7.5,
+//   isPass: true,
+// };
+
+// for (let key in student) {
+//   console.log("key =", key, "value =", student[key]);
+// }
+
+// ? Practice 1
+
+// let num = 100;
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log("i =", i);
+//   }
+// }
+
+// ? Practice 2
+
+// let gameNum = 25;
+// let userNumber = prompt("Guess the Game Number:");
+// while (userNumber != gameNum) {
+//   userNumber = prompt("you entered a wrong number, guess again");
+// }
+
+// console.log("congrats you enter a right number");

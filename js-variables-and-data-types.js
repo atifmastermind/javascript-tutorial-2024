@@ -435,3 +435,109 @@ used to perform some operation on data
 // }
 
 // console.log("congrats you enter a right number");
+
+// ! Strings
+// string is a sequence of characters used to represent text we can used dubble quotes or single qoutes
+// let str = "Muhammad Atif";
+// to know the length
+// let strLength = str.length;
+// console.log(strLength);
+// to get the string index
+// console.log(str[0]);
+
+// ! Template Literals
+// a way to have embedded expressions in strings
+// let specialString = `This is a template literal`;
+// console.log(specialString);
+
+// why we used backtick quotes because its easy to used and we don't have to type stings again and again
+
+// let obj = {
+//   item: "pen",
+//   price: 10,
+// };
+
+// without template literals
+// console.log("the cost of", obj.item, "is", obj.price, "rupess");
+// with template literals
+// let output = `the cost of ${obj.item} is ${obj.price} rupess`;
+// console.log(output);
+
+// ! escape characters
+
+// \n is a escape charactor we used this to brakeline
+// console.log("login\nnow");
+// \t its a escape charactor we used this to tab space
+// console.log("login\tnow");
+
+// ! String Methods
+// these are build-in functions to manipulate a string
+// its not change the orignal variable it's creating a new value
+// strings are immutable (means cahnge nahi hoti)
+// its creating the ogirnal variable
+// let str = "Muhammad Atif";
+// str.toLowerCase();
+// console.log(str);
+// thats why we save new value in variable and then console that variable.
+// let str = "Muhammad Atif";
+// let newStr = str.toLowerCase();
+// console.log(newStr);
+
+// ! toUpperCase()
+// let str = "Muhammad Atif";
+// console.log(str.toUpperCase());
+
+// ! toLowerCase()
+// let str = "Muhammad Atif";
+// let newStr = str.toLowerCase();
+// console.log(newStr);
+
+// ! trim()
+
+// its used for removed whitespaces from starting and ending.
+// let str = "        Muhammad Atif       ";
+// console.log(str.trim());
+
+// ! slice()
+// returns part of string
+// 3 index in non inclusive
+// let str = "01234567";
+// console.log(str.slice(1, 3));
+
+// ! concat()
+
+// joins 2 strins together
+
+// let str = "Muhammad ";
+// let str2 = "Atif";
+// way one
+// let res = str.concat(str2);
+// way two
+// let res = str + str2;
+
+// console.log(res);
+
+// ! replace()
+// to replace a new value its only replace once
+
+// let str = "Hello";
+// console.log(str.replace("H", "y"));
+
+// ! replaceAll()
+// to replace all the matching values
+// let str = "Hellololo";
+// console.log(str.replaceAll("lo", "o"));
+
+// ! charAt()
+// string k indar index par koi charector retun karwana ho too we use this
+
+// let str = "iloveJS";
+// console.log(str.charAt(1));
+
+// Q. Prectice 1
+
+// let userName = prompt("Enter your full name");
+// let removeWhite = userName.replace(/\s/g, "");
+// let res = "@" + removeWhite + removeWhite.length;
+
+// console.log(res);

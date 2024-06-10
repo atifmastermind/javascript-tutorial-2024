@@ -541,3 +541,131 @@ used to perform some operation on data
 // let res = "@" + removeWhite + removeWhite.length;
 
 // console.log(res);
+
+// ? Arrays
+// arrays is a collection of items
+// ! arrays are mutable and strings are unmutable
+// let marks = [10, 20, 30, 40, 50];
+// console.log(marks);
+
+// ? Array indices
+
+// we can access values using index
+// let marks = [10, 20, 30, 40, 50];
+// console.log(marks[0]);
+// we can change the value using this
+// let marks = [10, 20, 30, 40, 50];
+// console.log((marks[0] = 5));
+
+// ? looping over an arroy
+// strings, objects, arrays are iterable
+// printing array using for
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "Chunoo", "sunnahra"];
+// for (let i = 0; i < names.length; i++) {
+//   const result = names[i];
+//   console.log(result);
+// }
+
+// we used for off to print arrays
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "Chunoo", "sunnahra"];
+// for (const name of names) {
+//   console.log(name);
+// }
+
+// ! Prectice Qus
+
+// let marks = [10, 20, 30, 40, 50, 70, 80];
+// let sum = 0;
+// for (const val of marks) {
+//   result = sum += val;
+// }
+// let avg = result / marks.length;
+// console.log(`avg marks of class ${avg}`);
+
+// ! Prectice Qus 2
+// ? using for of
+// let prices = [250, 645, 300, 900, 50];
+// let i = 0;
+// for (let val of prices) {
+//   let offer = val / 10;
+//   finalPrice = prices[i] - offer;
+//   console.log(`values after offer = ${finalPrice}`);
+//   i++;
+// }
+
+// ? using for
+// let prices = [250, 645, 300, 900, 50];
+// for (let i = 0; i < prices.length; i++) {
+//   let offer = prices[i] / 10;
+//   prices[i] -= offer;
+// }
+// console.log(prices);
+
+// ? array Methods
+// there are 2 types of array methods one that change that array and 2nd which give us an new array
+
+// ? Push()
+// to add new value at the end of array
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// names.push("Chuno");
+// console.log(names);
+
+// ? Pop()
+// to delete value from end & return
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// names.pop();
+// console.log(names);
+
+// ? toString()
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// res = names.toString();
+// console.log(res);
+
+// ? concat
+// join multiple arrays & retrun result
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// let moreNames = ["ghudda", "shahzada"];
+// let allNames = names.concat(moreNames);
+// console.log(allNames);
+
+// ? unshift
+// work like push but its going to add values at start of
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// let res = names.unshift("shahzada");
+// console.log(names);
+
+// ? shift
+// work like pop but its deleted from start
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// let res = names.shift();
+// console.log(names);
+
+// ? slice()
+
+// let names = ["Atif", "Pyarii", "Chuzii", "Evil", "angel", "sunnahra"];
+// let res = names.slice(0, 1);
+// console.log(res);
+
+// ? splice()
+// its takes 3 perameters
+// splice(startidx, delcount, newel1);
+// ! delete and update new value
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr.splice(2, 2, 100, 200);
+// console.log(arr);
+// ! only add new value
+// let arr = [1, 4, 5, 6, 7, 8, 9, 10];
+// arr.splice(1, 0, 2, 3);
+// console.log(arr);
+// ! delete value
+
+// let arr = [1, 4, 5, 6, 7, 8, 9, 10];
+// arr.splice(7, 1);
+// console.log(arr);
+
+// ? prectice qus 1
+
+// let companies = ["bloomburg", "microsoft", "uber", "google", "IBM", "netflix"];
+// companies.splice(2, 1, "Ola");
+// companies.push("Amazon");
+// console.log(companies);

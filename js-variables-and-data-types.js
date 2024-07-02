@@ -669,3 +669,91 @@ used to perform some operation on data
 // companies.splice(2, 1, "Ola");
 // companies.push("Amazon");
 // console.log(companies);
+
+// ? functions
+// block of code that performs a specific task. can be invoked whenever needed.
+// functions can help us to Redundancy of code.
+
+// two parts to create a function
+// ! Function definition
+// function nameOfFunction() {
+//whatever we want to do we wrote here
+// }
+
+// function myFunction() {
+//   console.log("welcome to my function");
+// }
+
+// myFunction();
+
+// To define input in functions inside functions parentheses we placed our input variable. that variable called parameter
+// when we revoke this function we have to pass parameter this will called argument
+// function abc(msg) {
+//   console.log(msg);
+// }
+// abc("i love it");
+
+// function -> 2 numbers , sum
+// function sum(x, y) {
+//   console.log(x + y);
+// }
+// sum(5, 5);
+// ! return
+
+// is used to return value, its only return one variable.
+
+// function sum(x, y) {
+//   s = x + y;
+//   return s;
+// }
+
+// let val = sum(3, 4);
+// console.log(val);
+
+// after return a value we can't do anything because its useless that code won't work so return is out last line of function
+
+// function parameter worked as local variable of function so its a block scope
+
+// ? Arrow functions
+// compact way of writing a function its a modern way
+
+// sum function
+// const arrowSum = (a, b) => {
+//   console.log(a + b);
+// };
+
+// arrowSum(10, 10);
+
+// multiplay function
+
+// const arrowmulti = (a, b) => {
+//   console.log(a * b);
+// };
+
+// arrowmulti(10, 10);
+
+// ! prectice example 1
+
+// function countsVowels(str) {
+//   let count = 0;
+//   for (const char of str) {
+//     if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+
+// ! prectice example 2
+
+const countVow = (str) => {
+  let count = 0;
+  for (const char of str) {
+    if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+      count++;
+    }
+  }
+
+  return count;
+};
